@@ -1,6 +1,6 @@
 # dotnet-tools-playground
+
 A tool based on the [dotnetsay sample](https://github.com/dotnet/core/tree/master/samples/dotnetsay) to experiment how to create and use [.NET Core Global Tools](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools)
-It runs on Windows, Linux and  macOS machines with [.NET Core 2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1) or higher installed.
 
 A detailed [tutorial](https://natemcmaster.com/blog/2018/05/12/dotnet-global-tools/) ([PDF](tutorial-natemcmaster.pdf)) has been written by Nate McMaster ([@natemcmaster](https://github.com/natemcmaster))
 
@@ -9,7 +9,7 @@ A detailed [tutorial](https://natemcmaster.com/blog/2018/05/12/dotnet-global-too
 
 To [create](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools-how-to-create) a tool:
  - the project type must be a console application (`OutputType` set to `Exe`: `Library` will not run)
- - the target framework must be .NET Core 2.1 or higher (lower or .NET Standard do not work)
+ - the target framework must be [.NET Core 2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1) or higher (lower or .NET Standard do not work)
  - the `PackAsTool` property must be set to `true`
  - the `ToolCommandName` property can be specified not to name the tool after the project file
 
